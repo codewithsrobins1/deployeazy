@@ -3,6 +3,9 @@
 /* Variables */
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
 }
 
 /* Base */
@@ -148,4 +151,45 @@ img {
 .stats .grid p {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* CLI */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2; /* go from 1 and span to two */
+  grid-row: 1 / span 2;
+}
+
+/* Cloud */
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+
+/* Language */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: all 0.2s ease-in;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}
+
+.langauges .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer .social a {
+  margin: 0 10px;
 }
