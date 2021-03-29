@@ -7,6 +7,7 @@
     <link rel="icon" href="./images/cloudfav.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/animations.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Deployeazy | Deploy Your Projects Easily</title>
 </head>
@@ -26,62 +27,71 @@
     </div>
 
     <!-- Head Section -->
-    <section class="features-head bg-primary py-3">
+    <section class="docs-head bg-primary py-3">
         <div class="container grid">
             <div>
-                <h1 class="xl">Features</h1>
+                <h1 class="xl">Docs</h1>
                 <p class="lead">Sidious myneyrsh yané yevetha hissa galen polis. Kenobi organa warrick y'bith.</p>
             </div>
-            <img src="./images/server.png" alt="server">
+            <img src="./images/docs.png" alt="server">
         </div>
     </section>
 
-    <!-- Subhead Section -->
-    <section class="features-sub-head bg-light py-3">
+    <!--  Docs Main -->
+    <section class="docs-main my-4">
         <div class="container grid">
-            <div>
-                <h1 class="md">Deployeazy Platform</h1>
-                <p>Sidious myneyrsh yané yevetha hissa galen polis. Kenobi organa warrick y'bith.
-                    Ors hssis talortai jacen. Illum aayla weequay ruwee corellia meridian. 
-                    Ithorian ackbar oswaft unu ben gado. Darth umbaran massa moff.
-                </p>
-            </div>
-            <img src="./images/server2.png" alt="server">
-        </div>
-    </section>
+            <div class="card bg-light p-3">
+                <h3 class="my-2">Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Introduction</a></li>
+                        <li><a href="#">About Deployeazy</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
 
-    <!-- Main Features -->
-    <section class="features-main my-2">
-        <div class="container grid grid-3">
-            <div class="card flex">
-                <i class="fas fa-server fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
+                <h3 class="my-2">Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Set up a container</a></li>
+                        <li><a href="#">Using the CLI</a></li>
+                        <li><a href="#">Managing Resources</a></li>
+                        <li><a href="#">Upgrade & downgrade</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="card flex">
-                <i class="fas fa-database fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-laptop-code fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-power-off fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-network-wired fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
-            </div>
-            <div class="card flex">
-                <i class="fas fa-upload fa-3x"></i>
-                <p>Jin'ha secura felth voxyn yarael plo himoran quadrinaros. Typho mothma grievous abrion var jade. 
-                    Hapan -1b duro latter gungan yarael oppo malastare.</p>
+
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>Bollux kushiban jax dodonna mon atrivis whitesun shmi anthos. 
+                    Doldur rugor wedge tarasin sanyassan mirialan finis wirutid ryn. 
+                    Endocott chistori dengar teevan darpa mirialan dagobah zann huk. 
+                </p>
+
+                <div class="alert alert-success">
+                    <i class="fas fa-info"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, aperiam!
+                </div>
+
+                <h3>Dodonna mon atrivis who</h3>
+                <p>Metalorn fett airen d8 yané glymphid mustafar nunb. 
+                    Dunwell tano mustafar lars crynyd organa darth maul secura. 
+                    Rodian allie bib vedder atrivis saurin nagai skirata.
+                </p>
+                <a href="#" class="btn btn-primary">Install CLI</a>
+
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX, Linux</li>
+                    <li>Node.js v12 or higher</li>
+                </ul>
+
+                <h3>Installation</h3>
+                <p>Mac (Homebrew)</p>
+                <pre><code>$ brew install deployeazy-cli</code></pre>
+                <p>NPM</p>
+                <pre><code>$ npm install deployeazy-cli</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install deployeazy-cli</code></pre>
             </div>
         </div>
     </section>

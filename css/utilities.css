@@ -88,6 +88,27 @@
   color: #fff;
 }
 
+/* Text Colors */
+.text-primary,
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary,
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark,
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light,
+.text-light {
+  color: var(--light-color);
+}
+
 /* Text Sizes */
 .lead {
   font-size: 20px;
@@ -112,6 +133,28 @@
 /* Text Spacing */
 .text-center {
   text-align: center;
+}
+
+/* Alerts */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
 }
 
 /* Margin */
